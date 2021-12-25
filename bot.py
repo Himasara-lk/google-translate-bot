@@ -8,11 +8,11 @@ from pyrogram.types import (
 )
 from google_trans_new import google_translator
 
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "5037154221:AAFqmuK2abwMYxYiWDdq8afaP4Jrw8Xnqv0")
 
-APP_ID = int(os.environ.get("APP_ID", 12345))
+APP_ID = int(os.environ.get("APP_ID", 8064991))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "9c1ef35f4339c2153f3f6254eee60691")
 app = Client(
         "ggt",
         bot_token=TOKEN,api_hash=API_HASH,
